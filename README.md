@@ -1,6 +1,8 @@
 # casa_inteligente
 Trabalho 01 - Programação Orientada a Eventos. 
 
+*OBS - Não consegui comitar o projeto por completo (This diff contains a change in line endings from 'LF' to 'CRLF'.), pra resolver logo, compactei todo o projeto e importei o arquivo compactado...
+
 Este projeto tem como objetivo simular uma casa inteligente, na qual os dispositivos podem ser controlados remotamente através de uma interface web. A casa possui diferentes cômodos, cada um com dispositivos conectados que podem ser manipulados pelos usuários. A interação com os dispositivos será feita em tempo real, usando comunicação WebSocket para refletir as alterações de estado em múltiplos clientes simultaneamente.
 
 Grupo: @RafaelMunarin, @danieljovenir
