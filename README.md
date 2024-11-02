@@ -28,7 +28,11 @@ No terminal da janela do front-end, execute os seguintes comandos para instalar 
 
 ```bash
 npm install -g typescript
+```
+```bash
 npm install express socket.io cors typescript ts-node-dev @types/node @types/express @types/socket.io
+```
+```bash
 npx tsc --init
 ```
 
@@ -37,7 +41,11 @@ No terminal da janela do back-end, execute os comandos a seguir:
 
 ```bash
 npm install nodemon
-npm install socket.io-client
+```
+```bash
+npm install socket.io-cliente
+```
+```bash
 npm install @types/socket.io-client --save-dev
 ```
 
