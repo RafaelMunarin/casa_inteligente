@@ -25,7 +25,7 @@ Para obter uma cópia local do projeto, execute os seguintes comandos:
 git clone https://github.com/RafaelMunarin/casa_inteligente.git
 ```
 ```bash
-cd casa inteligente
+cd casa_inteligente
 ```
 
 ### Passo 1: Abrir o Projeto no VS Code
