@@ -1,8 +1,6 @@
 # Casa Inteligente
 **Trabalho 01 - Programação Orientada a Eventos**
 
-> **Nota:** Não consegui comitar o projeto por completo devido ao erro de terminação de linhas (`This diff contains a change in line endings from 'LF' to 'CRLF'`). Para contornar esse problema rapidamente, compactei o projeto inteiro e importei o arquivo compactado.
-
 ## Descrição do Projeto
 Este projeto tem como objetivo simular uma casa inteligente, onde dispositivos em diferentes cômodos podem ser controlados remotamente por meio de uma interface web. A comunicação em tempo real é feita através de WebSocket, permitindo que alterações no estado dos dispositivos sejam refletidas em múltiplos clientes simultaneamente.
 
@@ -32,6 +30,7 @@ No terminal da janela do front-end, execute os seguintes comandos para instalar 
 npm install -g typescript
 npm install express socket.io cors typescript ts-node-dev @types/node @types/express @types/socket.io
 npx tsc --init
+```
 
 ### Passo 3: Configurar o Back-End
 No terminal da janela do back-end, execute os comandos a seguir:
@@ -40,6 +39,7 @@ No terminal da janela do back-end, execute os comandos a seguir:
 npm install nodemon
 npm install socket.io-client
 npm install @types/socket.io-client --save-dev
+```
 
 ### Passo 4: Iniciar o Projeto
 Após a configuração, use o comando npm start em ambas as janelas para iniciar os servidores do front-end e back-end.
