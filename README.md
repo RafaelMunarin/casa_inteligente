@@ -1,24 +1,47 @@
-# casa_inteligente
-Trabalho 01 - Programação Orientada a Eventos. 
+# Casa Inteligente
+**Trabalho 01 - Programação Orientada a Eventos**
 
-*OBS - Não consegui comitar o projeto por completo (This diff contains a change in line endings from 'LF' to 'CRLF'.), pra resolver logo, compactei todo o projeto e importei o arquivo compactado...
+> **Nota:** Não consegui comitar o projeto por completo devido ao erro de terminação de linhas (`This diff contains a change in line endings from 'LF' to 'CRLF'`). Para contornar esse problema rapidamente, compactei o projeto inteiro e importei o arquivo compactado.
 
-Este projeto tem como objetivo simular uma casa inteligente, na qual os dispositivos podem ser controlados remotamente através de uma interface web. A casa possui diferentes cômodos, cada um com dispositivos conectados que podem ser manipulados pelos usuários. A interação com os dispositivos será feita em tempo real, usando comunicação WebSocket para refletir as alterações de estado em múltiplos clientes simultaneamente.
+## Descrição do Projeto
+Este projeto tem como objetivo simular uma casa inteligente, onde dispositivos em diferentes cômodos podem ser controlados remotamente por meio de uma interface web. A comunicação em tempo real é feita através de WebSocket, permitindo que alterações no estado dos dispositivos sejam refletidas em múltiplos clientes simultaneamente.
 
-Grupo: @RafaelMunarin, @danieljovenir
+**Grupo:**  
+- [@RafaelMunarin](https://github.com/RafaelMunarin)
+- [@danieljovenir](https://github.com/danieljovenir)
 
-Para iniciar o projeto siga as instruções:
+## Estrutura do Projeto
+O projeto está organizado em três pastas principais dentro de `smart-home`:
+1. **smart-home-backend**: Gerencia o back-end da aplicação.
+2. **smart-home-frontend**: Responsável pelo front-end.
+3. **smart-home-shared**: Contém o arquivo `types.js`, compartilhado entre o back-end e o front-end.
 
-Dentro da pasta "smart-home" terá outras 3 pastas, "smart-home-backend" que irá cuidar do backEnd, "smart-home-frontend", que cuidará do frontEnd e "smart-home-shared" que cuida do arquivo types.js (mesmo arquivo para o back e o front), vamos estar utilizando apenas as duas primeiras pastas citadas.
-Abra o VS Code 2 vezes (duas janelas), em uma delas você vai abrir a pasta do frontEnd e na outra janela do VS vai abrir o backEnd.
+> **Nota:** Apenas as pastas `smart-home-backend` e `smart-home-frontend` serão utilizadas para rodar o projeto.
 
-No FrontEnd vai rodar os seguintes comandos no prompt de comando:
+## Como Iniciar o Projeto
+
+### Passo 1: Abrir o Projeto no VS Code
+Abra o Visual Studio Code em duas janelas:
+- Em uma janela, abra a pasta do **front-end**.
+- Na outra janela, abra a pasta do **back-end**.
+
+### Passo 2: Configurar o Front-End
+No terminal da janela do front-end, execute os seguintes comandos para instalar as dependências:
+
+```bash
 npm install -g typescript
-npm install express socket.io cors typescript ts-node-dev @types/node @types/express @types/socket.io npx tsc --init
+npm install express socket.io cors typescript ts-node-dev @types/node @types/express @types/socket.io
+npx tsc --init
 
-No BackEnd  vai rodar os seguintes comandos no prompt de comando
+### Passo 3: Configurar o Back-End
+No terminal da janela do back-end, execute os comandos a seguir:
+
+```bash
 npm install nodemon
 npm install socket.io-client
 npm install @types/socket.io-client --save-dev
 
-Feito isso, vai usar o comando npm start nas duas janelas, isso vai servir para iniciar os servidores do backEnd e do frontEnd, feito isso automaticamente uma janela no navegador vai ser aberta contendo a parte visual do projeto.
+### Passo 4: Iniciar o Projeto
+Após a configuração, use o comando npm start em ambas as janelas para iniciar os servidores do front-end e back-end.
+
+Ao iniciar, o navegador será aberto automaticamente com a interface visual do projeto.
