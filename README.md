@@ -50,6 +50,6 @@ npm install @types/socket.io-client --save-dev
 ```
 
 ### Passo 4: Iniciar o Projeto
-Após a configuração, use o comando npm start em ambas as janelas para iniciar os servidores do front-end e back-end.
+Após a configuração, use o comando `npm start` em ambas as janelas para iniciar os servidores do front-end e back-end.
 
 Ao iniciar, o navegador será aberto automaticamente com a interface visual do projeto.
