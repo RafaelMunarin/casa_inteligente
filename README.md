@@ -9,7 +9,7 @@ Este projeto tem como objetivo simular uma casa inteligente, onde dispositivos e
 - [@danieljovenir](https://github.com/danieljovenir)
 
 ## Estrutura do Projeto
-O projeto está organizado em três pastas principais dentro de `smart-home`:
+O projeto está organizado em três pastas principais:
 1. **smart-home-backend**: Gerencia o back-end da aplicação.
 2. **smart-home-frontend**: Responsável pelo front-end.
 3. **smart-home-shared**: Contém o arquivo `types.js`, compartilhado entre o back-end e o front-end.
