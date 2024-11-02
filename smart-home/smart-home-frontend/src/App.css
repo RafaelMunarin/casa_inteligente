@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2fd; 
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .casa {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #34495e; 
+    margin-top: 20px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 5px;
+  }
+  
+  .sala,
+  .cozinha,
+  .quarto {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+  }
+  
+  .sala:hover,
+  .cozinha:hover,
+  .quarto:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .device {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .device p {
+    margin: 5px 0;
+    font-size: 1.1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf50; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  .status {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .casa {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    button {
+      padding: 8px 12px;
+      font-size: 0.9em;
+    }
+  
+    .device p {
+      font-size: 1em;
+    }
+    
+  }
+
+  .footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
