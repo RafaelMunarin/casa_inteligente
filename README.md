@@ -18,6 +18,16 @@ O projeto está organizado em três pastas principais dentro de `smart-home`:
 
 ## Como Iniciar o Projeto
 
+### Clonar o Repositório
+Para obter uma cópia local do projeto, execute os seguintes comandos:
+
+```bash
+git clone https://github.com/RafaelMunarin/casa_inteligente.git
+```
+```bash
+cd casa inteligente
+```
+
 ### Passo 1: Abrir o Projeto no VS Code
 Abra o Visual Studio Code em duas janelas:
 - Em uma janela, abra a pasta do **front-end**.
