@@ -45,6 +45,9 @@ npm install express socket.io cors typescript ts-node-dev @types/node @types/exp
 ```bash
 npx tsc --init
 ```
+```bash
+npm i
+```
 
 ### Passo 3: Configurar o Back-End
 No terminal da janela do back-end, execute os comandos a seguir:
@@ -57,6 +60,9 @@ npm install socket.io-cliente
 ```
 ```bash
 npm install @types/socket.io-client --save-dev
+```
+```bash
+npm i
 ```
 
 ### Passo 4: Iniciar o Projeto
